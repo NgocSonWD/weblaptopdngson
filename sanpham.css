@@ -1,0 +1,511 @@
+.sanpham{
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+.sanpham__ten{
+    margin-left: 5%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.sanpham__ngoaianh{
+    margin-left: 10%;
+    margin-top: 20px;
+    display: flex;
+    width: 800px;
+    border: 2px #fff solid;
+    border-radius: 15px;
+    align-items: center;
+    background-color: aqua;
+    box-shadow: 5px 0px 20px 10px #DDDDDD; 
+}
+/* ----------------thong tin san pham va sanphamlienquan--------------------------- */
+.sanpham_detail{
+    height: 500px;
+}
+.sanpham__tt__splq{
+    float: left;
+    width: 60%;
+}
+/* -----------thong tin san pham---------------------- */
+.sanpham__tt{  
+    width: 100%;
+    margin-left: 40px;
+    border: 1px solid #000;
+    border-radius: 10px ;
+}
+/* --------------sanphamlienquan------------------------ */
+.sanphamlienquan{
+    margin-top: 2%;
+    margin-left: 20px;
+    width: 100%;
+    
+}
+.splq{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    
+}
+.splq__hinhanh_a{
+    text-decoration: none;
+}
+.splq__hinhanh{
+    width: 90%;
+    height: 90%;
+    margin: 10px 30px;
+    box-shadow: 5px 0px 20px 10px #DDDDDD;
+    border-radius: 15px;
+}
+.splq__hinhanh_tensp{
+    font-size: 14px;
+    padding: 5px;
+}
+.imgsplq{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+/* ----------------thong so ki thuat------------------------- */
+.sanpham__tskt{
+    float: right;
+    width: 30%;
+    height: auto;
+    margin: 0 2%;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.sanpham__tskt-name{
+    margin: 1% 0 2% 5%;
+    font-size:larger;
+}
+.sanpham__tskt_noidung{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sanpham__tskt_tungnoidung{
+    line-height: 20px;
+    width: 100%;
+    padding: 3%;
+}
+.ten_tskt{
+    width: 150px;
+    float: left;
+}
+.bien_tskt{
+    float: right;
+    margin-right: 10%;
+    width: 170px;
+}
+/* --------------modal----------------- */
+.hide{
+    display: none;
+}
+.modal_open{
+    width: 200px;
+    height: 30px;
+    background-color: #DDDDDD;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+}
+.modal{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.modal__inner{
+    width: 500px;
+    height: 600px;
+    position: relative;
+    margin: 5% auto;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+.modal__header{
+    background-color: rgb(103, 149, 234);
+}
+.modal_btn_tat{
+    margin-left: 94%;
+    padding-left: 7px;
+    padding-top: 4px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+.modal__body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.modal__body span{
+    padding: 10px;
+    font-size: 18px;
+}
+.modal__body_tungmuc{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 10px;
+    background-color: #DDDDDD;
+}
+.modal_noidung .ten_tskt{
+    width: 35%;
+    float: left;
+    padding: 5px;
+}
+.modal_noidung .bien_tskt{
+    width: 55%;
+    float: right;
+    padding: 5px;
+}
+.modal__footer{
+    background-color: #DDDDDD;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.modal__footer button{
+    background-color: rgb(103, 149, 234);
+    border: 1px solid rgb(103, 149, 234);
+    width: 95%;
+    height: 20px;
+    border-radius: 5px;
+}
+
+/* ----------------------------------------------- */
+
+.sanpham__tt--name{
+    display: block;
+    font-size: 20px;
+    color: blue;
+    margin: 1% 35%;
+}
+/* ---------------------sanpham_trai---------------- */
+.sanpham__trai{
+    float: left;
+    width: 60%;
+    height: 400px;
+    margin: 1.5% 3%;
+    display: flex;
+    border: 2px #fff solid;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 0px 20px 10px #DDDDDD;
+    background-image: linear-gradient(to right, rgb(71, 73, 236), rgba(88,37,123,0));
+}
+.sanpham__yeuthich{
+    position: absolute;
+    width: 25px;
+    height: 20px;
+}
+.sanpham__yeuthich input{
+    background-color: rgba(225, 225, 225, 0.0000001);
+}
+.imgyt-full{
+    width: 25px;
+    height: 20px;
+    margin-left: 400px;
+    margin-top: 170px;
+    background-image: url("IMG/background/heart_full-removebg-preview.png");
+    background-size: cover;
+    border: none;
+}
+.imgyt-empty{
+    width: 25px;
+    height: 20px;
+    margin-left: 400px;
+    margin-top: 170px;
+    background-image: url("IMG/background/heart_empty-removebg-preview.png");
+    background-size: cover;
+    border: none;
+}
+
+
+.sanpham__phai{
+    float: right;
+    width: 30%;
+    height: 400px;
+    margin: 1.5% 2%;
+}
+.hinhanhkhac{
+    display: flex;
+    width: 150px;
+    height: 75px;
+    flex-direction: row;
+    margin: 2% 3%;
+}
+.hak:active{
+    border: 1px solid #000;
+    border-radius: 5%;
+}
+.mh{
+    position: fixed;
+    z-index: -100;
+    opacity: 0;
+}
+.hak{
+    margin: 0 1%;
+}
+.imgsp_hak{
+    display: inline-block;
+    width: 90px;
+    height: 100%;
+    padding: 10%;
+    background-color: #DDDDDD;
+    border-radius: 5%;
+}
+.sanpham__gia{
+    margin-top: 20%;
+    margin-left: 27%;
+    display: inline-block;
+    font-size: 40px;
+    border: 1px #fff solid ;
+    border-radius: 10px;
+}
+.sanpham__gia p{
+    margin-top: -20%;
+}
+.sanpham__btn{
+    margin-top: 10%;
+}
+.sanpham__inp{
+    width: 300px;
+    height: 50px;
+    border: 1px #000 solid ;
+    border-radius: 10px;
+}
+.sanpham__btn_buy{
+    display: flex;
+    justify-content: space-around;
+}
+.sanpham__btn--buy_now{
+    float: left;
+    width: 350px;
+    height: 60px;
+    background-color: deepskyblue;
+    border: 3px deepskyblue solid;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 0px deepskyblue; 
+}
+.sanpham__btn--add{
+    float: right;
+    width: 60px;
+    height: 60px;
+    padding: 3%;
+    border: 3px #DDDDDD solid;
+    border-radius: 10px ; 
+}
+.sanpham_uudai{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin: 5% 0 5% 0;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 1%;
+}
+.uudai--ten{
+    margin: 1% 0 2% 5%;
+}
+.sanpham__btn--muangay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-size: 20px;
+}
+.sanpham__btn--style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+
+/* -----------------comment---------------- */
+.comment{
+    width: 60%;
+    float: left;
+    margin-left: 5%;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.comment h2{
+    padding: 20px;
+}
+.comment_form{
+    padding: 2% 5%;
+}
+.comment_form textarea{
+    width: 100%;
+}
+.comment_form input{
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+}
+.comment_show{
+    width: 60%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.comment_show--nd{
+    display: flex;
+    flex-direction: column;
+}
+.comment_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+}
+.comment-avt{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.comment-avt img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.comment-username{
+    width: 150px;
+}
+.comment-date{
+    justify-content: flex-end;
+    margin-right: 1%;
+}
+.comment_show--nd--nd{
+    display: inline;
+    width: 60%;
+    padding: 2%;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.tbcmt{
+    margin: 10px 100px;
+}
+
+/* .splq{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.splq__hinhanh_a{
+    text-decoration: none;
+}
+.splq__hinhanh{
+    border: 3px #DDDDDD solid;
+    box-shadow: 5px 0px 20px 10px #DDDDDD;
+    padding: 40px;
+    height: 400px;
+}
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .sanpham__ngoaianh{
+        width: 90%;
+    }
+    .sanpham__phai{
+        display: flex;
+        flex-direction: row;
+    }
+    .sanpham__gia{
+        margin-top: 10%;
+        margin-left: -20%;
+        display: inline-block;
+        font-size: 40px;
+        border: 1px #fff solid ;
+        border-radius: 10px;
+    }
+    .sanphamlienquan{
+        margin-top: 10%;
+    }
+    .splq{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .splq__hinhanh_a{
+        width: 55%;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width:46.1875em) {
+    .sanpham__ngoaianh{
+        width: 90%;
+        margin-left: 5%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sanpham__tt{
+        width: 95%;
+        margin-left: -5%;
+    }
+    .sanpham__phai{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 90%;
+    }
+    .sanpham__gia{
+        font-size: 20px;
+        margin-left: -10%;
+        border: 1px #fff solid ;
+        border-radius: 10px;
+        margin-bottom: 20%;
+    }
+    .sanpham__btn--add{
+        margin-top: 20%;
+        margin-right: 2%;
+        width: 150px;
+        border: 3px #DDDDDD solid;
+        border-radius: 3%;
+        box-shadow: 0px 5px 5px 0px #DDDDDD; 
+    }
+    .sanpham__btn--style{
+        margin-left: -20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        text-decoration: none;
+    }   
+    .sanphamlienquan{
+        margin-top: 10%;
+    }
+    .splq{
+        display: flex;
+        flex-direction: column;
+    }
+    .splq__hinhanh_a{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .imgsplq{
+        width: 95%;
+    }
+} */

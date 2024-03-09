@@ -1,0 +1,17 @@
+.yt{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.yt_sp{
+    margin: 0 50px;
+}
+.yt_sp a{
+    text-decoration: none;
+}
+.sp{
+    border: 2px solid #fff;
+    margin: 10px 10px;
+    padding: 10px;
+    box-shadow: 5px 0px 20px 10px #DDDDDD;
+}

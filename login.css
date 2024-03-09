@@ -1,0 +1,86 @@
+.container{
+    background-image: url(IMG//background//asus_zenproduo.jpg);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.container__login{
+    width: 400px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    position: relative;
+    border-radius: 15px;
+}
+.login__name{ 
+    color: white;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.login__username{
+    color: white;
+    margin-left: 10px;
+}
+.icon-eye{
+    display: inline-block;
+}
+.icon_user{
+    max-width: 20px;
+}
+.login__password{
+    color: white;
+    margin-left: 10px;
+}
+.login-up{
+    border-bottom: 1px solid #fff;
+    margin-left: 20px;
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.login-input{
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-size: 20px; 
+    margin-left: 35px;
+}
+.btn-rl{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.btn--register{
+    display: inline-block;
+    color: #fff;
+}
+.btn--login{
+    margin-left: 70px;
+    display: inline-block;
+}
+.nhap__login{
+    font-size: 15px;
+}
+.tb{    
+    position: absolute;
+    color: #fff;
+    z-index: 10;
+    margin-left: 43%;
+    margin-top: 29%;
+}
+
+
+

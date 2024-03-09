@@ -1,0 +1,22 @@
+.suauser{
+    display: flex;
+    justify-content: center;
+    
+}
+table{
+    margin-top: 20%;
+    width: 400px;
+    background-color: aqua;
+}
+td{
+    padding: 10px;
+}
+input{
+    height: 30px;
+}
+.btn_sua{
+    background-color: antiquewhite;
+    border: 1px #fff solid;
+    margin: 5% 80%;
+}
+

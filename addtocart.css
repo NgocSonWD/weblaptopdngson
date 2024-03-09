@@ -1,0 +1,147 @@
+table{
+    margin: auto;
+    margin-top: 1%;
+    border: 2px black solid;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 80%;
+}
+.table__row{
+    border: 2px black solid;
+}
+.imgsp{
+    width: 50px;
+    height: 50px;
+    margin-left: -10px;
+}
+th{
+    border: 2px black solid;
+}
+td{
+    border: 2px black solid;
+    padding: 0 5%;
+}
+.tb{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.tb_login{
+    margin-left: 10px;
+    text-decoration: none;
+}
+.table__row--stt{
+    width: 50px;
+}
+.stt{
+    margin-left: -35px;
+}
+.table__row--tensp{
+    width: 500px;
+}
+.table__row--hinhanh{
+    width: 120px;
+}
+.table__row--hinhanh img{
+    margin-left: -30px;
+}
+.table__row--gia{
+    width: 150px;
+}
+.table__row--gia p{
+    margin-left: -30px;
+}
+.table__row--soluong{
+    width: 100px;
+}
+.table__row--thanhtien{
+    width: 160px;
+}
+.thanhtoan{
+    margin-top: 1%;
+    margin-left: 40%;
+}
+.thanhtoan_btn{ 
+    padding: 30px;
+    text-decoration: none;
+}
+.table__row--xoa{
+    width: 50px;
+}
+.btn_xoa{
+    text-decoration: none;
+    margin-left: -45px;
+}
+.tong{
+    margin-left: 100px;
+}
+.congtru{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.congtru a{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .imgsp{
+        width: 50px;
+        height: 50px;
+        margin-left: -250%;
+    }
+    th{
+        border: 2px black solid;
+    }
+    td{
+        border: 2px black solid;
+        padding: 0 5%;
+    }
+    .tb{
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        margin-top: 4%;
+    }
+    .tb_login{
+        margin-left: 10px;
+        text-decoration: none;
+    }
+    .table__row--stt{
+        width: 50px;
+    }
+    .stt{
+        margin-left: -35px;
+    }
+    .table__row--tensp{
+        width: 500px;
+    }
+    .table__row--hinhanh{
+        width: 120px;
+    }
+    .table__row--gia{
+        width: 150px;
+    }
+    .giatien{
+        margin-left: -70%;
+    }
+    .table__row--soluong{
+        width: 110px;
+    }
+    .table__row--thanhtien{
+        width: 160px;
+    }
+    .thanhtien{
+        margin-left: -50%;
+    }
+    .btn_xoa{
+        margin-left: -30px;
+    }
+    .stt{
+        margin-left: -20px;
+    }
+    .tong__so{
+        margin-left: -2 0px;
+    }
+}

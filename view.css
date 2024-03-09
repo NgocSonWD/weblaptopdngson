@@ -1,0 +1,159 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(136, 136, 227);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    height: 50px;
+}
+.headertrai{
+    width: 10%;
+}
+.headertrai_ten{
+    margin-left: 5%;
+}
+.headerphai{
+    margin-top: 1%;
+    width: 15%;
+}
+.headerphai_tc{
+    padding: 0px 20px;
+}
+a{
+    text-decoration: none;
+}
+.thanhngang ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-direction: center;
+    align-items: center;
+}
+.tenmenu{
+    margin-left: 15%;
+}
+.ttnd{
+    list-style-type: none;
+}
+.ttsp{
+    list-style-type: none;
+}
+.lsgd{
+    list-style-type: none;
+}
+.tk{
+    list-style-type: none;
+}
+
+/*thong tin nguoi dung*/
+.table__nd{
+    border: 2px black solid;
+    border-collapse: collapse;  
+}
+th{
+    border: 2px black solid ;
+    padding: 20px;
+}
+.hang td{
+    text-align: center;
+    border: 2px black solid ;
+}
+#thongtinnguoidung{
+    width: 55%;
+    font-size: 20px;
+    margin-left: 25%;
+    display: none;
+}
+.thongtinnguoidung__stt{
+    width: 50px;
+}
+.thongtinnguoidung__id{
+    width: 50px;
+}
+.thongtinnguoidung__ten{
+    width: 200px;
+}
+.thongtinnguoidung__full{
+    width: 300px;
+}
+.thongtinnguoidung__sua{
+    width: 100px;
+}
+.thongtinnguoidung__xoa{
+    width: 100px;
+}
+#thongtinnguoidung:target{
+    display: block;
+}
+.user_sua--bang:target{
+    display: block;
+}
+.btn_del{
+    fill: none;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: rgb(0, 0, 238);
+    font-size: 18px ;
+}
+
+/*thong tin san pham*/
+.table__sp{
+    border: 2px black solid;
+    border-collapse: collapse;
+}
+#thongtinsanpham{
+    width: 100%;
+    font-size: 20px;
+    display: none;
+}
+#thongtinsanpham:target{
+    display: block;
+}
+.hangsp td{
+    text-align: center;
+    border: 2px black solid;
+}
+.imgsp{
+    width: 100px;
+    height: 100px;
+}
+.thongtinnguoidung__ttsp{
+    height: 150px;
+}
+
+/*---------------Lich su giao dich-----------*/
+.table__ls{
+    border: 2px black solid;
+    border-collapse: collapse;
+}
+#lichsugiaodich{
+    width: 100%;
+    font-size: 20px;
+    display: none;
+}
+#lichsugiaodich:target{
+    display: block;
+}
+.hangls td{ 
+    text-align: center;
+    border: 2px black solid;
+}
+.thongtinnguoidung__dc{
+    width: 400px;
+}
+.thongtinnguoidung__user_id{
+    width: 50px;
+}
+
+/* ----------------thong-ke---------- */
+#thongke{
+    width: 100%;
+    display: none;
+}
+#thongke:target{
+    display: block;
+}

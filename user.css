@@ -1,0 +1,88 @@
+.userr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userr__avt{
+    float: left;
+    width: 500px;
+}
+.userr__avt img{
+    width: 400px;
+    height: auto;
+}
+.userr__info{
+    float: right;
+    line-height: 200%;
+}
+.userr__info input{
+    height: 40px;
+}
+.userr__btnluu{
+    line-height: 60px;
+    padding: 100px;
+}
+.userr__btnchange{
+    line-height: 40px;
+    display: flex;
+    margin-left: -165px;
+    margin-top: 230px;
+}
+/* ---------------modal-------------- */
+.hide{
+    display: none;
+}
+.modal{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.modal__inner{
+    width: 250px;
+    height: 380px;
+    position: relative;
+    margin: 5% auto;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.modal__header{
+    background-color: rgb(103, 149, 234);   
+}
+.modal_btn_tat{
+    margin-left: 90%;
+    padding-left: 7px;
+    padding-top: 4px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);  
+}
+.modal__body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.modal__body input{
+    width: 200px;
+    height: 40px;
+    margin-left: 25px;
+    line-height: 30px;
+}
+.modal__body span{
+    width: 200px;
+    height: 40px;
+    line-height: 30px;
+    padding: 5px;
+}
+.changePass{
+    margin: 30px 0 50px 100px;
+    width: 50px;
+    height: 40px;
+}
+

@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#phandau{
+    background-color: rgb(103, 149, 234);
+    width: 100%;
+    height: 100px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.hinhlogo{
+    width: 200px;
+    height: 100px;
+}
+.danhmuc{
+    list-style-type: none;
+    color: black;  
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+}
+ul li:hover{
+    color: #fff;
+}
+ul li ul.hienduoi{
+    width: 80px;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: -20;
+    background: white;
+}
+ul li:hover ul.hienduoi{
+    display: block;
+}
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+.link{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 20pt;
+    width: 60px;
+}
+.muc{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-top: 30px;
+    justify-content: center;
+}
+.search{
+    margin-top: 30px;
+    max-height: 30px;
+    width: 40%;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.kinhlup{
+    max-width: 30px;
+    float: right;
+    margin-top: -20%;
+}
+.button-search{
+    margin-top: 8px;
+    margin-left: 10px;
+    background: none;
+    border: none;
+}
+.tim{
+    border: none;
+    width: 93%; 
+    height: 100%;
+    vertical-align: top;
+    padding-left: 10px;
+    margin-top: 7px;
+    float: left;
+}
+.tim:focus{
+    outline: none;
+}
+#imgsearch{
+    margin-top: -4px;
+    font-size: 170%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+#shopping-cart{
+    justify-content: center;
+}
+.anh_gh{
+    display: block;
+    margin-top: 25%;
+    max-width: 70px;
+}
+.taikhoan__list ul li{
+    display: none;
+}
+.taikhoan__list ul:hover li.taikhoan__list--after{
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    width: 100px;
+    height: auto;
+    line-height: 150%;
+    justify-content: center;
+    border-radius: 2px;
+}
+.taikhoan{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.taikhoan__list{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+.taikhoan__list--separate{
+    display: block;
+    border: 1px solid black;
+    height: 20px;
+    margin: 0 10px;
+}
+
+/* --------------------------------ads------------- */
+.image-ads{
+    top: 0;
+    z-index: 1000;
+    margin: 0 10%;
+    max-width: 80%;
+    max-height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#img-ads{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.image-ads--mini{
+    flex-direction: row;
+}
+.img-ads-mini{
+    max-width: 20%; 
+}
+
+/* -------------------------------------------- */
+.all_table{
+    display: block;
+    width: 80%;
+    margin: 0 12%;
+}
+.bangsp-head{
+    text-decoration: none;
+    width: 400px;
+}
+.bangsp{
+    width: 22%;
+    height: 350px;
+    display: inline-block;
+    margin: 10px 10px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 5px 0px 20px 10px #DDDDDD;
+    z-index: 100    ;
+}
+.imgsanpham{
+    width: 100%;
+    height: 100%;
+}
+.bangsp__tensp{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.td__tensp{
+    vertical-align: top;
+    height: 66px;
+}
+.kthaysp{
+    display: flex;
+    margin-top: 15%;
+    justify-content: center;
+    font-size: 40px;
+}
+.sotrang{
+    font-size: 150%;
+    text-align: center;
+}
+.sotrang a{
+    text-decoration: none;
+}
+
+/* -------------------------thong tin nguoi dung----------------- */
+#items{
+    line-height: 40px;
+    top: 0;
+    right: 0;
+    position: fixed;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    display: none;
+}
+/* ----------------------------------------------------------------- */
+
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .logo{
+        width: 20%;
+    }
+    .hinhlogo{
+        width: 100%;
+        height: 100%;
+    }
+    .danhmuc{
+        width: 10%;
+    }
+    .search{
+        width: 30%;
+    }
+    .tim{
+        width: 80%
+    }
+    .shopping-cart{
+        width: 10%;
+    }
+    .taikhoan{
+        width: 20%;
+        margin-right: 0px;
+    }
+    .bangsp{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:46.1875em) {
+    .logo{
+        width: 20%;
+    }
+    .hinhlogo{
+        width: 100%;
+        height: 100%;
+    }
+    .danhmuc{
+        margin-top: -5%;
+        width: 10%;
+        font-size: 15px;
+    }
+    .search{
+        margin-top: 3%;
+        width: 30%;
+    }
+    .tim{
+        width: 70%
+    }
+    .shopping-cart{
+        width: 10%;
+        font-size: 5px;
+        margin-top: -5%;
+    }
+    .taikhoan{
+        width: 20%;
+        margin-right: 0px;
+        font-size: 10px;
+        padding: 10px;
+    }
+    .bangsp{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    .imgsanpham{
+        width: 100%;
+    }
+}

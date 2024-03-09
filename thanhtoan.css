@@ -1,0 +1,162 @@
+.container{
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(178, 178, 231);
+    font-size: 20px;
+}
+p{
+    display: inline-block;
+    width: 200px;
+}
+.nhap{
+    width: 300px;
+    height: 30px;
+}
+.thanhtoan-btn{
+    margin-top: 8%;
+    height: 40px;
+}
+.tbtt{
+    margin-left: 45%;
+}
+
+/*table*/
+table{
+    margin-top: 1%;
+    border: 2px black solid;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 95%;
+    background-color: #fff;
+}
+.table__row{
+    border: 2px black solid;
+}
+.imgsp{
+    width: 50px;
+    height: 50px;
+    margin-left: -30px;
+}
+th{
+    border: 2px black solid;
+}
+td{
+    border: 2px black solid;
+    padding: 0 5%;
+}
+.tb{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.tb_login{
+    margin-left: 10px;
+    text-decoration: none;
+}
+.table__row--stt{
+    width: 50px;
+}
+.stt{
+    margin-left: -35px;
+    width: 10px;
+}
+.table__row--tensp{
+    width: 500px;
+}
+.ten{
+    margin-left: -30px;
+    width: 130px;
+}
+.table__row--hinhanh{
+    width: 200px;
+}
+.table__row--gia{
+    width: 150px;
+}
+.table__row--soluong{
+    width: 100px;
+}
+.table__row--soluong div{
+    margin-left: -20px;
+}
+.table__row--thanhtien{
+    width: 160px;
+}
+
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    table{
+        margin-right: 10%;
+        margin-top: 1%;
+        border: 2px black solid;
+        border-collapse: collapse;
+        padding: 10px;
+        width: 80%;
+        background-color: #fff;
+    }
+}
+@media screen and (max-width:46.1875em) {
+    table{
+        margin-right: 10%;
+        margin-top: 1%;
+        border: 2px black solid;
+        border-collapse: collapse;
+        padding: 10px;
+        width: 70%;
+        background-color: #fff;
+    }
+    .table__row{
+        border: 2px black solid;
+    }
+    .imgsp{
+        width: 10%;
+        height: 10%;
+        margin-left: -30px;
+    }
+    th{
+        border: 2px black solid;
+    }
+    td{
+        border: 2px black solid;
+        padding: 0 5%;
+    }
+    .tb{
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        margin-top: 4%;
+    }
+    .tb_login{
+        margin-left: 10px;
+        text-decoration: none;
+    }
+    .table__row--stt{
+        width: 50px;
+    }
+    .stt{
+        width: 10px;
+    }
+    .table__row--tensp{
+        width: 500px;
+    }
+    .ten{
+        font-size: 1px;
+    }
+    .table__row--hinhanh{
+        width: 120px;
+    }
+    .table__row--gia{
+        width: 150px;
+    }
+    .table__row--soluong{
+        width: 100px;
+    }
+    .table__row--thanhtien{
+        width: 160px;
+    }
+}

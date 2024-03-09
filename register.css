@@ -1,0 +1,73 @@
+.form{
+    background-image: url(IMG//background//asus_zenproduo.jpg);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.btn-return{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #fff;
+}
+.icon_back{
+    max-width: 30px;
+}
+.icon_user{
+    max-width: 20px;
+}
+.form--register{
+    position: relative;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.register__name{
+    color: white;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.register{
+    border-bottom: 1px solid #fff;
+    margin-left: 20px;
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.register-input{
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-size: 20px; 
+    margin-left: 40px;
+}
+.btn-register{
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.tb{
+    position: absolute;
+    color: #fff;
+    margin-left: 40%;
+    margin-top: 35%;
+}
+
+/**/
+.form_them{
+    height: 500px;
+}
